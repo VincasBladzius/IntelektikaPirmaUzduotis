@@ -10,7 +10,7 @@ namespace IntelektikaPirmaUzduotis
     {
         public FirstFormula()
         {
-
+            
         }
     }
 }
