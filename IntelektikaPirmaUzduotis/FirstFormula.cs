@@ -8,5 +8,9 @@ namespace IntelektikaPirmaUzduotis
 {
     class FirstFormula
     {
+        public FirstFormula()
+        {
+
+        }
     }
 }
