@@ -134,9 +134,9 @@
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(438, 912);
+            this.richTextBox1.Location = new System.Drawing.Point(545, 860);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(216, 65);
+            this.richTextBox1.Size = new System.Drawing.Size(216, 34);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
@@ -215,18 +215,19 @@
             this.FormulaTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FormulaTwo.BackgroundImage")));
             this.FormulaTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.FormulaTwo.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormulaTwo.Location = new System.Drawing.Point(556, 771);
+            this.FormulaTwo.Location = new System.Drawing.Point(545, 771);
             this.FormulaTwo.Name = "FormulaTwo";
             this.FormulaTwo.Size = new System.Drawing.Size(326, 65);
             this.FormulaTwo.TabIndex = 18;
             this.FormulaTwo.UseVisualStyleBackColor = true;
+            this.FormulaTwo.Click += new System.EventHandler(this.FormulaTwo_Click);
             // 
             // FormulaOne
             // 
             this.FormulaOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FormulaOne.BackgroundImage")));
             this.FormulaOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.FormulaOne.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormulaOne.Location = new System.Drawing.Point(224, 771);
+            this.FormulaOne.Location = new System.Drawing.Point(213, 771);
             this.FormulaOne.Name = "FormulaOne";
             this.FormulaOne.Size = new System.Drawing.Size(326, 65);
             this.FormulaOne.TabIndex = 17;
@@ -237,7 +238,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(432, 862);
+            this.label5.Location = new System.Drawing.Point(302, 860);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(237, 34);
             this.label5.TabIndex = 19;
@@ -247,7 +248,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 1035);
+            this.ClientSize = new System.Drawing.Size(1141, 1142);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.FormulaTwo);
             this.Controls.Add(this.FormulaOne);

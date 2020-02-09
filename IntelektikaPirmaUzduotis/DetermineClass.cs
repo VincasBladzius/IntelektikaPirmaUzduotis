@@ -21,7 +21,7 @@ namespace IntelektikaPirmaUzduotis
 
             int f = CheckValue(signs, k);
             string sign = DetermineSign(signs, f);
-            string classSign = CheckStringValues(sums, k, sign);                      
+            string classSign = CheckStringValues(sums, signs, k, sign);                      
             
             return classSign;
         }
@@ -62,10 +62,10 @@ namespace IntelektikaPirmaUzduotis
             }
             return sign;
         }
-        public string CheckStringValues(List<double> sums, int k, string sign)
+        public string CheckStringValues(List<double> sums, List<string> signs, int k, string sign)
         {
 
-            if(k<sums.Count && sums[k-1] == sums[k])
+            if(k<sums.Count && sums[k-1] == sums[k] && signs[k - 1] == signs[k])
             {
                 return "nežinomas";
             }

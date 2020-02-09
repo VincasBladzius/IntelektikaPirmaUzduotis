@@ -61,7 +61,16 @@ namespace IntelektikaPirmaUzduotis
         private void FormulaOne_Click(object sender, EventArgs e)
         {
             this.K = Convert.ToInt32(NeighboursBox.SelectedItem);
-            display.DisplayClass(richTextBox1, sampleChosen, dataChosen, K, Point);
+            int formulaChoise = 0;
+            display.DisplayClass(richTextBox1, sampleChosen, dataChosen, K, Point, formulaChoise);
+        }
+
+        private void FormulaTwo_Click(object sender, EventArgs e)
+        {
+            int formulaChoise = 1;
+            this.K = Convert.ToInt32(NeighboursBox.SelectedItem);
+            display.DisplayClass(richTextBox1, sampleChosen, dataChosen, K, Point, formulaChoise);
+
         }
     }
 }
