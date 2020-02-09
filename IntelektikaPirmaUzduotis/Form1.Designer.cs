@@ -70,6 +70,7 @@
             this.button3imtis.Size = new System.Drawing.Size(223, 209);
             this.button3imtis.TabIndex = 1;
             this.button3imtis.UseVisualStyleBackColor = true;
+            this.button3imtis.Click += new System.EventHandler(this.button3imtis_Click);
             // 
             // button4imtis
             // 
@@ -80,6 +81,7 @@
             this.button4imtis.Size = new System.Drawing.Size(223, 209);
             this.button4imtis.TabIndex = 2;
             this.button4imtis.UseVisualStyleBackColor = true;
+            this.button4imtis.Click += new System.EventHandler(this.button4imtis_Click);
             // 
             // button5imtis
             // 
@@ -90,6 +92,7 @@
             this.button5imtis.Size = new System.Drawing.Size(223, 209);
             this.button5imtis.TabIndex = 3;
             this.button5imtis.UseVisualStyleBackColor = true;
+            this.button5imtis.Click += new System.EventHandler(this.button5imtis_Click);
             // 
             // button6imtis
             // 
@@ -100,6 +103,7 @@
             this.button6imtis.Size = new System.Drawing.Size(223, 209);
             this.button6imtis.TabIndex = 4;
             this.button6imtis.UseVisualStyleBackColor = true;
+            this.button6imtis.Click += new System.EventHandler(this.button6imtis_Click);
             // 
             // button7imtis
             // 
@@ -110,6 +114,7 @@
             this.button7imtis.Size = new System.Drawing.Size(223, 209);
             this.button7imtis.TabIndex = 5;
             this.button7imtis.UseVisualStyleBackColor = true;
+            this.button7imtis.Click += new System.EventHandler(this.button7imtis_Click);
             // 
             // button8imtis
             // 
@@ -120,6 +125,7 @@
             this.button8imtis.Size = new System.Drawing.Size(223, 209);
             this.button8imtis.TabIndex = 6;
             this.button8imtis.UseVisualStyleBackColor = true;
+            this.button8imtis.Click += new System.EventHandler(this.button8imtis_Click);
             // 
             // button9imtis
             // 
@@ -130,6 +136,7 @@
             this.button9imtis.Size = new System.Drawing.Size(223, 209);
             this.button9imtis.TabIndex = 7;
             this.button9imtis.UseVisualStyleBackColor = true;
+            this.button9imtis.Click += new System.EventHandler(this.button9imtis_Click);
             // 
             // richTextBox1
             // 
@@ -248,7 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 1142);
+            this.ClientSize = new System.Drawing.Size(1141, 918);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.FormulaTwo);
             this.Controls.Add(this.FormulaOne);

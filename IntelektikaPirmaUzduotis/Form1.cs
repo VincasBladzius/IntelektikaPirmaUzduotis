@@ -39,8 +39,10 @@ namespace IntelektikaPirmaUzduotis
 
         public void button2imtis_Click(object sender, EventArgs e)
         {
-            sampleChosen = samples.Sample1;
-            dataChosen = samples.Data1;
+            //sampleChosen = samples.Sample1;
+            //dataChosen = samples.Data1;
+            sampleChosen = samples.Sample2;
+            dataChosen = samples.Data2;
         }
 
         private void Calculate_Click(object sender, EventArgs e)
@@ -71,6 +73,48 @@ namespace IntelektikaPirmaUzduotis
             this.K = Convert.ToInt32(NeighboursBox.SelectedItem);
             display.DisplayClass(richTextBox1, sampleChosen, dataChosen, K, Point, formulaChoise);
 
+        }
+
+        private void button3imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample3;
+            dataChosen = samples.Data3;
+        }
+
+        private void button4imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample4;
+            dataChosen = samples.Data4;
+        }
+
+        private void button5imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample5;
+            dataChosen = samples.Data5;
+        }
+
+        private void button6imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample6;
+            dataChosen = samples.Data6;
+        }
+
+        private void button7imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample7;
+            dataChosen = samples.Data7;
+        }
+
+        private void button8imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample8;
+            dataChosen = samples.Data8;
+        }
+
+        private void button9imtis_Click(object sender, EventArgs e)
+        {
+            sampleChosen = samples.Sample9;
+            dataChosen = samples.Data9;
         }
     }
 }
