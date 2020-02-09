@@ -17,6 +17,8 @@ namespace IntelektikaPirmaUzduotis
         public Samples samples { get; set; }
         public string[][] sampleChosen { get; set; }
         public string[][] dataChosen { get; set; }
+        public int K { get; set; }
+        public int Point { get; set; }
 
         public Form1()
         {
@@ -43,7 +45,23 @@ namespace IntelektikaPirmaUzduotis
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            display.DisplayClass(richTextBox1, sampleChosen, dataChosen);
+           
+        }
+
+        private void E7Point_Click(object sender, EventArgs e)
+        {
+            this.Point = 0;
+        }
+
+        private void E8Point_Click(object sender, EventArgs e)
+        {
+            this.Point = 1;
+        }
+
+        private void FormulaOne_Click(object sender, EventArgs e)
+        {
+            this.K = Convert.ToInt32(NeighboursBox.SelectedItem);
+            display.DisplayClass(richTextBox1, sampleChosen, dataChosen, K, Point);
         }
     }
 }

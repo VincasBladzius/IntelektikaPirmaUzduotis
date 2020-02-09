@@ -10,19 +10,15 @@ namespace IntelektikaPirmaUzduotis
     public class DisplayResult
     {
         public List<List<object>> Calculations { get; set; }
-        public string ClassSign { get; set; }
+        public string ClassSign { get; set; }     
 
-        public DisplayResult()
-        {         
-            
-        }     
 
-       public void DisplayClass(RichTextBox richBox, string[][] sample, string[][] data)
+       public void DisplayClass(RichTextBox richBox, string[][] sample, string[][] data, int k, int point)
         {
             OneFormula one = new OneFormula();
             DetermineClass determine = new DetermineClass();
-            this.Calculations = one.CalculateDistances(sample, data);
-            this.ClassSign = determine.DetermineClassSign(Calculations, 5);
+            this.Calculations = one.CalculateDistances(sample, data, point);
+            this.ClassSign = determine.DetermineClassSign(Calculations, k);
             richBox.Text = ClassSign;
            
         }
