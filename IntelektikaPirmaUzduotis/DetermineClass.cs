@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace IntelektikaPirmaUzduotis
 {
@@ -64,6 +65,11 @@ namespace IntelektikaPirmaUzduotis
         }
         public string CheckStringValues(List<double> sums, List<string> signs, int k, string sign)
         {
+            if (k == 0)
+            {
+                MessageBox.Show("Nepasirinkote Kaimynų");
+                Environment.Exit(0);
+            }
 
             if(k<sums.Count && sums[k-1] == sums[k] && signs[k - 1] == signs[k])
             {
